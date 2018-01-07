@@ -6,6 +6,10 @@ Doesn't includes backend, you can use leveldown, memdown or your own.
 
 Master is always considered the database "opener", workers communicate with the database via RPC calls.
 
+## More goodness
+
+You can find more useful stuff for levelup on [`awesome`](https://github.com/Level/awesome/).
+
 ## Example
 
 Just use as if you were using levelup on the workers.
