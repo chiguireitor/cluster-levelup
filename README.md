@@ -11,7 +11,7 @@ Master is always considered the database "opener", workers communicate with the 
 Just use as if you were using levelup on the workers.
 
 ```javascript
-const levelup = require('./index.js')
+const levelup = require('cluster-levelup')
 const cluster = require('cluster')
 
 if (cluster.isMaster) {

@@ -10,6 +10,10 @@
     "levelup",
     "cluster"
   ],
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/chiguireitor/cluster-levelup.git"
+  },
   "author": "john \"chiguireitor\" villar",
   "license": "ISC",
   "dependencies": {
